@@ -324,6 +324,7 @@
     "bahmni_diagnoses": []
   },
   {
+    "__form_name__": "post partum",
     "doc_type": "OpenmrsFormConfig",
     "xmlns": "http://openrosa.org/formdesigner/A9613D9D-4D86-4775-A984-3B199CF68000",
     "openmrs_visit_type": "90973824-1AE9-4E22-B2BB-9CBD56FB3238",
@@ -346,9 +347,77 @@
       },
       {
         "doc_type": "ObservationMapping",
+        "concept": "3ce939d2-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel/signes_vitaux_de_la_mre/copy-1-of-temp_maternel"
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ce939d2-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel/signes_vitaux_de_la_mre/copy-1-of-fc"
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ceb11f8-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel/signes_vitaux_de_la_mre/FR"
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel/signes_durgence_de_la_mre/hemorragie_post_partum",
+          "value_map": {
+            "oui": "3ccc9a8e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel/signes_durgence_de_la_mre/hemorragie_post_partum",
+          "value_map": {
+            "non": "3ccc9a8e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel/signes_durgence_de_la_mre/cephalee-intense",
+          "value_map": {
+            "oui": "139081AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel/signes_durgence_de_la_mre/cephalee-intense",
+          "value_map": {
+            "non": "139081AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
         "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/pf_methode",
+          "form_question": "/data/maternel-pf/pf_method_1",
           "value_map": {
             "implant_jadelle": "1873AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
@@ -359,9 +428,86 @@
         "doc_type": "ObservationMapping",
         "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/pf_methode",
+          "form_question": "/data/maternel-pf/pf_method_2",
           "value_map": {
             "ligature_des_trompes": "3cdcf44c-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel-pf/pf_method_3",
+          "value_map": {
+            "depo_provera": "3cd5094e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel-pf/pf_method_4",
+          "value_map": {
+            "iud": "3ceb4d4e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel-pf/pf_method_5",
+          "value_map": {
+            "condoms": "3cce7a20-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel-pf/pf_method_6",
+          "value_map": {
+            "pillule": "3cd42786-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel-pf/pf_method_7",
+          "value_map": {
+            "methode_naturelle": "3ceb5082-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel-pf/pf_method_8",
+          "value_map": {
+            "pas_de_method": "3cd743f8-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ccfbd0e-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/maternel-pf/pf_method_9",
+          "value_map": {
+            "not_applicable": "3cd7b72a-26fe-102b-80cb-0017a47871b2"
           }
         },
         "case_property": null
