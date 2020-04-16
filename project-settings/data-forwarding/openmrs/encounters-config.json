@@ -333,7 +333,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce934fa-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_vitaux_de_la_mre/TA"
+          "form_question": "/data/maternel/signes_vitaux_de_la_mre/ta_systolic"
         },
         "case_property": null
       },
@@ -341,7 +341,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce93694-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_vitaux_de_la_mre/copy-1-of-ta_diastolique"
+          "form_question": "/data/maternel/signes_vitaux_de_la_mre/ta_diastolic"
         },
         "case_property": null
       },
@@ -349,15 +349,15 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce939d2-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_vitaux_de_la_mre/copy-1-of-temp_maternel"
+          "form_question": "/data/maternel/signes_vitaux_de_la_mre/temperature"
         },
         "case_property": null
       },
       {
         "doc_type": "ObservationMapping",
-        "concept": "3ce939d2-26fe-102b-80cb-0017a47871b2",
+        "concept": "3ce93824-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_vitaux_de_la_mre/copy-1-of-fc"
+          "form_question": "/data/maternel/signes_vitaux_de_la_mre/heart_rate"
         },
         "case_property": null
       },
@@ -366,6 +366,157 @@
         "concept": "3ceb11f8-26fe-102b-80cb-0017a47871b2",
         "value": {
           "form_question": "/data/maternel/signes_vitaux_de_la_mre/FR"
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "1788AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/referral/rfr_a_lhpital_pour_soins",
+          "value_map": {
+            "oui": "3cd6f600-26fe-102b-80cb-0017a47871b2",
+            "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "9e4b6acc-ab97-4ecd-a48c-b3d67e5ef778",
+        "value": {
+          "form_question": "/data/referral/copy-1-of-urgent_ou_non-urgent",
+          "value_map": {
+            "urgent": "3cd6f600-26fe-102b-80cb-0017a47871b2",
+            "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "06d89708-2677-44ce-bc87-197ac608c2c1",
+        "value": {
+          "form_question": "/data/referral/autre_membre_de_famille_referee_a_lhopital",
+          "value_map": {
+            "oui": "3cd6f600-26fe-102b-80cb-0017a47871b2",
+            "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3ce94df0-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/referral/date_de_rdv"
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd9d956-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/referral/autres_commentaires_remarques_et_suivi_pour_patients"
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "0421d974-2bc0-4805-a842-3ceba3b82be7",
+        "value": {
+          "form_question": "/data/referral/reference_au_psychologue/psych_reference_1",
+          "value_map": {
+            "suspicion_victime_vbg": "165088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "0421d974-2bc0-4805-a842-3ceba3b82be7",
+        "value": {
+          "form_question": "/data/referral/reference_au_psychologue/psych_reference_2",
+          "value_map": {
+            "suspicion_depression": "165538AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "0421d974-2bc0-4805-a842-3ceba3b82be7",
+        "value": {
+          "form_question": "/data/referral/reference_au_psychologue/psych_reference_3",
+          "value_map": {
+            "autre_reference_au_sante_mentale": "3cee7fb4-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "1912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_1",
+          "value_map": {
+            "Signes_durgence": "161050AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "1912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_2",
+          "value_map": {
+            "allaitement": "1910AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "1912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_3",
+          "value_map": {
+            "nutrition_diete": "161073AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "1912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_4",
+          "value_map": {
+            "hygiene": "1906AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "1912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_5",
+          "value_map": {
+            "planification_familiale": "5ecb82d7-698b-41fe-8ed8-b00ae7a8cb01"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "1912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_6",
+          "value_map": {
+            "autre": "3cee7fb4-26fe-102b-80cb-0017a47871b2"
+          }
         },
         "case_property": null
       },
