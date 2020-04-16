@@ -678,7 +678,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce939d2-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/temp-BB"
+          "form_question": "/data/signes_vitaux_du_bb/temp-BB"
         },
         "case_property": null
       },
@@ -686,7 +686,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce93824-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/fc_bb"
+          "form_question": "/data/signes_vitaux_du_bb/fc_bb"
         },
         "case_property": null
       },
@@ -694,7 +694,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ceb11f8-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/FR_bb"
+          "form_question": "/data/signes_vitaux_du_bb/FR_bb"
         },
         "case_property": null
       },
@@ -702,7 +702,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce93b62-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/poids_bb"
+          "form_question": "/data/signes_vitaux_du_bb/poids_bb"
         },
         "case_property": null
       },
@@ -710,7 +710,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce93cf2-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/taille"
+          "form_question": "/data/signes_vitaux_du_bb/taille"
         },
         "case_property": null
       },
@@ -718,7 +718,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ceb96b4-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/perimetre_craniale_pc"
+          "form_question": "/data/signes_vitaux_du_bb/perimetre_craniale_pc"
         },
         "case_property": null
       },
@@ -726,7 +726,7 @@
         "doc_type": "ObservationMapping",
         "concept": "160908AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/muac",
+          "form_question": "/data/signes_vitaux_du_bb/muac",
           "value_map": {
             "rouge": "127778AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
             "jaune": "160910AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -739,7 +739,7 @@
         "doc_type": "ObservationMapping",
         "concept": "313c39ae-5fb3-45b2-8315-25b2b714e0bf",
         "value": {
-          "form_question": "/data/enfant/signes_vitaux_du_bb/date_rdv_avec_nutrition"
+          "form_question": "/data/signes_vitaux_du_bb/date_rdv_avec_nutrition"
         },
         "case_property": null
       },
@@ -747,7 +747,7 @@
         "doc_type": "ObservationMapping",
         "concept": "1729AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/copy-1-of-signes_durgence_du_bb/fievre",
+          "form_question": "/data/copy-1-of-signes_durgence_du_bb/fievre",
           "value_map": {
             "oui": "3cf1898e-26fe-102b-80cb-0017a47871b2"
           }
@@ -758,7 +758,7 @@
         "doc_type": "ObservationMapping",
         "concept": "1729AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/copy-1-of-signes_durgence_du_bb/diahree",
+          "form_question": "/data/copy-1-of-signes_durgence_du_bb/diahree",
           "value_map": {
             "oui": "3ccc6a00-26fe-102b-80cb-0017a47871b2"
           }
@@ -769,7 +769,7 @@
         "doc_type": "ObservationMapping",
         "concept": "1729AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/copy-1-of-signes_durgence_du_bb/ictere",
+          "form_question": "/data/copy-1-of-signes_durgence_du_bb/ictere",
           "value_map": {
             "oui": "3ccea1bc-26fe-102b-80cb-0017a47871b2"
           }
@@ -780,7 +780,7 @@
         "doc_type": "ObservationMapping",
         "concept": "1729AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/copy-1-of-signes_durgence_du_bb/toux",
+          "form_question": "/data/copy-1-of-signes_durgence_du_bb/toux",
           "value_map": {
             "oui": "3cccf632-26fe-102b-80cb-0017a47871b2"
           }
@@ -791,7 +791,7 @@
         "doc_type": "ObservationMapping",
         "concept": "1729AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/copy-1-of-signes_durgence_du_bb/convulsions",
+          "form_question": "/data/copy-1-of-signes_durgence_du_bb/convulsions",
           "value_map": {
             "oui": "143388AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
@@ -802,7 +802,7 @@
         "doc_type": "ObservationMapping",
         "concept": "165591AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/repas_par_jour_nombre"
+          "form_question": "/data/signes_vitaux_du_bb/repas_par_jour_nombre"
         },
         "case_property": null
       },
@@ -810,7 +810,7 @@
         "doc_type": "ObservationMapping",
         "concept": "1788AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "value": {
-          "form_question": "/data/enfant/refer_a_lhopital_pour_soins",
+          "form_question": "/data/question1/refer_a_lhopital_pour_soins",
           "value_map": {
             "oui": "3cd6f600-26fe-102b-80cb-0017a47871b2",
             "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
@@ -822,7 +822,7 @@
         "doc_type": "ObservationMapping",
         "concept": "9e4b6acc-ab97-4ecd-a48c-b3d67e5ef778",
         "value": {
-          "form_question": "/data/enfant/urgent_ou_non-urgent",
+          "form_question": "/data/question1/urgent_ou_non-urgent",
           "value_map": {
             "urgent": "3cd6f600-26fe-102b-80cb-0017a47871b2",
             "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
@@ -834,7 +834,7 @@
         "doc_type": "ObservationMapping",
         "concept": "06d89708-2677-44ce-bc87-197ac608c2c1",
         "value": {
-          "form_question": "/data/enfant/autre_membre_de_famille_referee_a_lhopital",
+          "form_question": "/data/question1/autre_membre_de_famille_referee_a_lhopital",
           "value_map": {
             "oui": "3cd6f600-26fe-102b-80cb-0017a47871b2",
             "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
@@ -846,7 +846,7 @@
         "doc_type": "ObservationMapping",
         "concept": "d84d6aa3-5c68-475a-827e-4cb04624800d",
         "value": {
-          "form_question": "/data/enfant/reference_pour_vaccinations",
+          "form_question": "/data/question1/reference_pour_vaccinations",
           "value_map": {
             "oui": "3cd6f600-26fe-102b-80cb-0017a47871b2",
             "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
@@ -858,7 +858,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3ce94df0-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/date_de_rdv"
+          "form_question": "/data/question1/date_de_rdv"
         },
         "case_property": null
       },
@@ -866,7 +866,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3cd9d956-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/enfant/autres_commentaires"
+          "form_question": "/data/question1/autres_commentaires"
         },
         "case_property": null
       }
@@ -874,7 +874,9 @@
     "openmrs_encounter_type": "0CF4717A-479F-4349-AE6F-8602E2AA41D3",
     "openmrs_form": null,
     "bahmni_diagnoses": [],
-    "openmrs_start_datetime": {}
+    "openmrs_start_datetime": {
+      "form_question": "/data/enfant/date_of_home_visit",
+      "external_data_type": "omrs_date"
+    }
   }
 ]
-
