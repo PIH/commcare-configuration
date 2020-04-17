@@ -385,7 +385,7 @@
         "doc_type": "ObservationMapping",
         "concept": "9e4b6acc-ab97-4ecd-a48c-b3d67e5ef778",
         "value": {
-          "form_question": "/data/referral/copy-1-of-urgent_ou_non-urgent",
+          "form_question": "/data/referral/urgent_or_not",
           "value_map": {
             "urgent": "3cd6f600-26fe-102b-80cb-0017a47871b2",
             "non": "3cd6f86c-26fe-102b-80cb-0017a47871b2"
@@ -524,7 +524,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_durgence_de_la_mre/hemorragie_post_partum",
+          "form_question": "/data/signes_durgence_de_la_mre/hemorragie_post_partum",
           "value_map": {
             "oui": "3ccc9a8e-26fe-102b-80cb-0017a47871b2"
           }
@@ -535,7 +535,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_durgence_de_la_mre/hemorragie_post_partum",
+          "form_question": "/data/signes_durgence_de_la_mre/hemorragie_post_partum",
           "value_map": {
             "non": "3ccc9a8e-26fe-102b-80cb-0017a47871b2"
           }
@@ -546,7 +546,7 @@
         "doc_type": "ObservationMapping",
         "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_durgence_de_la_mre/cephalee-intense",
+          "form_question": "/data/signes_durgence_de_la_mre/cephalee_intense",
           "value_map": {
             "oui": "139081AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
@@ -557,9 +557,119 @@
         "doc_type": "ObservationMapping",
         "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
         "value": {
-          "form_question": "/data/maternel/signes_durgence_de_la_mre/cephalee-intense",
+          "form_question": "/data/signes_durgence_de_la_mre/cephalee_intense",
           "value_map": {
             "non": "139081AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/trouble_visuelle",
+          "value_map": {
+            "oui": "118938AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/trouble_visuelle",
+          "value_map": {
+            "non": "118938AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/edema",
+          "value_map": {
+            "oui": "66cc0b0c-b990-40b2-ab14-0549aa89495d"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/edema",
+          "value_map": {
+            "non": "66cc0b0c-b990-40b2-ab14-0549aa89495d"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/douleur_abdominale_contractions",
+          "value_map": {
+            "oui": "3ccdf8d4-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/douleur_abdominale_contractions",
+          "value_map": {
+            "non": "3ccdf8d4-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/infection_vaginale",
+          "value_map": {
+            "oui": "117010AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/infection_vaginale",
+          "value_map": {
+            "non": "117010AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/fievre",
+          "value_map": {
+            "oui": "3cf1898e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/fievre",
+          "value_map": {
+            "non": "3cf1898e-26fe-102b-80cb-0017a47871b2"
           }
         },
         "case_property": null
@@ -636,7 +746,7 @@
         "value": {
           "form_question": "/data/maternel-pf/pf_method_7",
           "value_map": {
-            "methode_naturelle": "3ceb5082-26fe-102b-80cb-0017a47871b2"
+            "method_naturelle": "3ceb5082-26fe-102b-80cb-0017a47871b2"
           }
         },
         "case_property": null
