@@ -1,5 +1,6 @@
 [
   {
+    "__form_name__": "prenatal",
     "doc_type": "OpenmrsFormConfig",
     "xmlns": "http://openrosa.org/formdesigner/00822D7D-D6B9-4F02-9067-02AAEA49436F",
     "openmrs_visit_type": "90973824-1AE9-4E22-B2BB-9CBD56FB3238",
@@ -245,7 +246,7 @@
         "value": {
           "form_question": "/data/education/education_effectue_5",
           "value_map": {
-            "planification_familiale": "5ecb82d7-698b-41fe-8ed8-b00ae7a8cb01"
+            "planification_familiale": "1382AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
         },
         "case_property": null
@@ -504,7 +505,7 @@
         "value": {
           "form_question": "/data/education/education_effectue_5",
           "value_map": {
-            "planification_familiale": "5ecb82d7-698b-41fe-8ed8-b00ae7a8cb01"
+            "planification_familiale": "1382AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
         },
         "case_property": null
@@ -779,7 +780,6 @@
     "bahmni_diagnoses": [],
     "openmrs_start_datetime": {}
   },
-
   {
     "__form_name__": "maternal follow-up",
     "doc_type": "OpenmrsFormConfig",
@@ -945,7 +945,7 @@
         "value": {
           "form_question": "/data/education/education_effectue_5",
           "value_map": {
-            "planification_familiale": "5ecb82d7-698b-41fe-8ed8-b00ae7a8cb01"
+            "planification_familiale": "1382AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
         },
         "case_property": null
@@ -1074,8 +1074,8 @@
     "bahmni_diagnoses": [],
     "openmrs_start_datetime": {}
   },
-
   {
+    "__form_name__": "pediatric",
     "doc_type": "OpenmrsFormConfig",
     "xmlns": "http://openrosa.org/formdesigner/D5FAB5A6-97CE-45C1-9F38-00CEFE3A0C0A",
     "openmrs_visit_type": "90973824-1AE9-4E22-B2BB-9CBD56FB3238",
@@ -1273,6 +1273,72 @@
         "concept": "3cd9d956-26fe-102b-80cb-0017a47871b2",
         "value": {
           "form_question": "/data/question1/autres_commentaires"
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_1",
+          "value_map": {
+            "signes_durgence_bebe": "159860AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_2",
+          "value_map": {
+            "allaitement": "1910AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_3",
+          "value_map": {
+            "nutrition_diete": "1380AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_4",
+          "value_map": {
+            "hygiene_generale": "1906AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_5",
+          "value_map": {
+            "planification_familiale_mere": "1382AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/data/education/education_effectue_6",
+          "value_map": {
+            "autre": "3cee7fb4-26fe-102b-80cb-0017a47871b2"
+          }
         },
         "case_property": null
       }
