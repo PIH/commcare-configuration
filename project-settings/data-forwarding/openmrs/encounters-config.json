@@ -773,6 +773,14 @@
           }
         },
         "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164141AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/metadata/username"
+        },
+        "case_property": null
       }
     ],
     "openmrs_encounter_type": "0E7160DF-2DD1-4728-B951-641BBE4136B8",
@@ -1067,6 +1075,14 @@
           "form_question": "/data/autres_commentaires/commentaires"
         },
         "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164141AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/metadata/username"
+        },
+        "case_property": null
       }
     ],
     "openmrs_encounter_type": "690670E2-A0CC-452B-854D-B95E2EAB75C9",
@@ -1339,6 +1355,14 @@
           "value_map": {
             "autre": "3cee7fb4-26fe-102b-80cb-0017a47871b2"
           }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "164141AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "value": {
+          "form_question": "/metadata/username"
         },
         "case_property": null
       }
