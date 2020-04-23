@@ -74,11 +74,33 @@
       },
       {
         "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/passage_de_liquide",
+          "value_map": {
+            "non": "148968AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
         "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
         "value": {
           "form_question": "/data/signes_durgence_de_la_mre/manque_ou_diminution_des_mouvements_ftaux",
           "value_map": {
             "oui": "113377AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/manque_ou_diminution_des_mouvements_ftaux",
+          "value_map": {
+            "non": "113377AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
         },
         "case_property": null
@@ -96,11 +118,33 @@
       },
       {
         "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/cephale",
+          "value_map": {
+            "non": "139081AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
         "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
         "value": {
           "form_question": "/data/signes_durgence_de_la_mre/trouble_visuelle",
           "value_map": {
             "oui": "118938AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/trouble_visuelle",
+          "value_map": {
+            "non": "118938AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
           }
         },
         "case_property": null
@@ -118,11 +162,33 @@
       },
       {
         "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/edema",
+          "value_map": {
+            "non": "3cd12a04-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
         "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
         "value": {
           "form_question": "/data/signes_durgence_de_la_mre/douleur_abdominale_contractions",
           "value_map": {
             "oui": "3ccdf8d4-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/douleur_abdominale_contractions",
+          "value_map": {
+            "non": "3ccdf8d4-26fe-102b-80cb-0017a47871b2"
           }
         },
         "case_property": null
@@ -140,6 +206,17 @@
       },
       {
         "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/infection_vaginale",
+          "value_map": {
+            "non": "117010AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
         "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
         "value": {
           "form_question": "/data/signes_durgence_de_la_mre/saignement",
@@ -151,11 +228,33 @@
       },
       {
         "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/saignement",
+          "value_map": {
+            "non": "150802AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
         "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
         "value": {
           "form_question": "/data/signes_durgence_de_la_mre/fievre",
           "value_map": {
             "oui": "3cf1898e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_de_la_mre/fievre",
+          "value_map": {
+            "non": "3cf1898e-26fe-102b-80cb-0017a47871b2"
           }
         },
         "case_property": null
@@ -1354,6 +1453,116 @@
           "form_question": "/data/education/education_effectue_6",
           "value_map": {
             "autre": "3cee7fb4-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/fievre",
+          "value_map": {
+            "oui": "3cf1898e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/fievre",
+          "value_map": {
+            "non": "3cf1898e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/diahree",
+          "value_map": {
+            "oui": "3ccc6a00-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/diahree",
+          "value_map": {
+            "non": "3ccc6a00-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/ictere",
+          "value_map": {
+            "oui": "3ccea1bc-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/ictere",
+          "value_map": {
+            "non": "3ccea1bc-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/toux",
+          "value_map": {
+            "oui": "3cccf632-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/toux",
+          "value_map": {
+            "non": "3cccf632-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cd95a58-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/convulsions",
+          "value_map": {
+            "oui": "3cce938e-26fe-102b-80cb-0017a47871b2"
+          }
+        },
+        "case_property": null
+      },
+      {
+        "doc_type": "ObservationMapping",
+        "concept": "3cdd2188-26fe-102b-80cb-0017a47871b2",
+        "value": {
+          "form_question": "/data/signes_durgence_du_bb/convulsions",
+          "value_map": {
+            "non": "3cce938e-26fe-102b-80cb-0017a47871b2"
           }
         },
         "case_property": null
