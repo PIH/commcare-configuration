@@ -882,10 +882,13 @@
         "case_property": null
       }
     ],
+    "openmrs_start_datetime": {
+      "form_question": "/data/maternel/date_visite_domicile",
+      "external_data_type": "omrs_date"
+    },
     "openmrs_encounter_type": "0E7160DF-2DD1-4728-B951-641BBE4136B8",
     "openmrs_form": null,
-    "bahmni_diagnoses": [],
-    "openmrs_start_datetime": {}
+    "bahmni_diagnoses": []
   },
   {
     "__form_name__": "maternal follow-up",
@@ -1184,10 +1187,13 @@
         "case_property": null
       }
     ],
+    "openmrs_start_datetime": {
+      "form_question": "/data/Suivi_Maternal/date_visite_domicile",
+      "external_data_type": "omrs_date"
+    },
     "openmrs_encounter_type": "690670E2-A0CC-452B-854D-B95E2EAB75C9",
     "openmrs_form": null,
-    "bahmni_diagnoses": [],
-    "openmrs_start_datetime": {}
+    "bahmni_diagnoses": []
   },
   {
     "__form_name__": "pediatric",
